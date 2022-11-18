@@ -1,0 +1,31 @@
+:root{
+    --primeira-cor: #E5F4E3;
+    --segunda-cor: #5DA9E9;
+
+    --borda: #003F91;
+
+    --fundo: #FFFFFF;
+    --text: #6D326D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--text);
+    font-size: 30px;
+}
+
+h1 {
+    color: var(--primeira-cor);
+}
+
+.conteudo {
+    display: flex;
+
+    height: 200px;
+    
+}
